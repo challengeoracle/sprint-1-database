@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_16" directorySegmentName="seg_0" id="94AAD215-D1E8-B7EA-157B-9D8E0ABE8D04">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:34:55 UTC</createdTime>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<sourcePk>7638B31A-7B7D-740A-9DCA-EB62245F3F63</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B88A714E-C7F4-7D8B-831A-E7D7E4291B96</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8C63D056-CB90-E726-D42C-8657C67F3CD3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

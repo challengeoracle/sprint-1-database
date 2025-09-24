@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A16A018-ED81-BE07-646D-F1AB6349B04B" name="TB_MEDI_RECURSO">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:18:24 UTC</createdTime>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_recurso" id="CB415D6D-73A4-E4FF-57C2-AF232B81BA56">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:18:34 UTC</createdTime>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_recurso" id="3CA347E0-A8C6-EAD8-8410-C891A5D04B81">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:18:46 UTC</createdTime>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_recurso" id="9A396D17-987E-5F5D-7C59-59B2D0896234">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:20:23 UTC</createdTime>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_recurso" id="726AFF87-BDCD-D341-F95B-BDCC447DCD58">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:20:44 UTC</createdTime>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_unidade_saude" id="BA2E7BC6-A6A3-9FD9-BA20-8188BA03BBC3">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:21:19 UTC</createdTime>
+<generatorID>A513EE95-B9BE-C4E1-0263-02DF5CA42245</generatorID>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<referedAttribute>6A8A8041-63ED-189D-5A46-8A3CDDBDB2C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="491A3D64-9E39-B6EC-7209-7903DDA615EB" name="TB_MEDI_RECURSO PK">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:18:46 UTC</createdTime>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CB415D6D-73A4-E4FF-57C2-AF232B81BA56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

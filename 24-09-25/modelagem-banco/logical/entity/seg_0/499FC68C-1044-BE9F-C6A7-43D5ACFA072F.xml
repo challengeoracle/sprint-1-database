@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="499FC68C-1044-BE9F-C6A7-43D5ACFA072F" name="TB_MEDI_AGENDAMENTO">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:21:55 UTC</createdTime>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_agendamento" id="1AAD3D71-03F8-561C-EEB5-DFA6E844B8EB">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:22:02 UTC</createdTime>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_hr_inicio" id="C0DC5E4B-3CA0-0385-5E3B-30430B026902">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:22:13 UTC</createdTime>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_hr_fim" id="838DE94E-8826-4D52-5B85-B2F01D2672D6">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:22:40 UTC</createdTime>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_agendamento" id="AF21D338-3AA8-4D1B-1ABC-6E0DEF3ACB76">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:22:57 UTC</createdTime>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="D64007D9-2500-D8F5-8551-8D88853AB9A1">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:24:28 UTC</createdTime>
+<generatorID>8312C7E4-A2F9-CD9F-96F1-7FB65E1C962A</generatorID>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<referedAttribute>EF2494BC-E5F9-F67B-D16C-B632C1A7BCA7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_colaborador" id="AC714582-F35E-7D69-014E-83E46F52FDC2">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:24:35 UTC</createdTime>
+<generatorID>AE85443D-3278-A348-9343-B0E8FB13F9B4</generatorID>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<referedAttribute>D1748D98-9BA8-1C63-C748-808DB86E3625</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_unidade_saude" id="91A92BE8-BE05-DB24-2045-F89A3B098F2A">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:25:14 UTC</createdTime>
+<generatorID>67F68C7C-5847-D5D4-E0C8-48F19A1C07C0</generatorID>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<referedAttribute>6A8A8041-63ED-189D-5A46-8A3CDDBDB2C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_recurso" id="0D65E2DB-3796-C013-0351-0C144589499D">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:25:33 UTC</createdTime>
+<generatorID>C59D6DDA-6871-53FE-0C23-750C2B32B764</generatorID>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<referedAttribute>CB415D6D-73A4-E4FF-57C2-AF232B81BA56</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A333B92-5380-192E-3A9E-3CCC4BEE8FFE" name="TB_MEDI_AGENDAMENTO PK">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:24:14 UTC</createdTime>
+<ownerDesignName>modelagem-banco</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1AAD3D71-03F8-561C-EEB5-DFA6E844B8EB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
