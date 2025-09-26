@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B88A714E-C7F4-7D8B-831A-E7D7E4291B96" name="TB_MEDI_COLABORADOR">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:14:01 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="1C8E7BBC-C8AE-F9BC-0481-ABB8B652B8A3">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:17:31 UTC</createdTime>
+<generatorID>F88D94C3-01FE-6C94-5F09-30E82547719B</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<referedAttribute>3F51E200-C1C0-5968-8BCA-AF9B0BDC8EF6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_colaborador" id="D1748D98-9BA8-1C63-C748-808DB86E3625">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:14:08 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deleted" id="787C82C0-1D59-410A-3DEC-FF5553C081A2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-09-26 12:24:49 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_criacao" id="9E1DC42D-930F-A845-A08E-E24201E0F39A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-09-26 12:24:49 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_cargo" id="33D642EB-2F44-AF52-322E-F46DD2C363C3">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:14:18 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_unidade_saude" id="B45E35EB-320C-E606-9D47-BF10FF6DB06F">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:17:48 UTC</createdTime>
+<generatorID>74F2E537-8D3D-6220-5E00-3A5CD78E8694</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<referedAttribute>6A8A8041-63ED-189D-5A46-8A3CDDBDB2C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7638B31A-7B7D-740A-9DCA-EB62245F3F63" name="TB_MEDI_COLABORADOR PK">
+<createdBy>mateu</createdBy>
+<createdTime>2025-09-24 15:14:17 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="3381B4DE-F35C-7EA8-A8D2-42BA00BF07D8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1748D98-9BA8-1C63-C748-808DB86E3625</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
